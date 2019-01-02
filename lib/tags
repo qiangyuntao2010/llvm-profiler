@@ -1,0 +1,560 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BBID	CAMP/campCommon.h	/^		typedef uint16_t 	BBID;$/;"	t	namespace:corelab::CAMP
+BOOST_ROOT_DIR	AliasAnalysis/Makefile	/^BOOST_ROOT_DIR=$(BOOST_ROOT)$/;"	m
+BUILD_RELINKED	AliasAnalysis/Makefile	/^BUILD_RELINKED=1$/;"	m
+BUILD_RELINKED	Utilities/Makefile	/^BUILD_RELINKED=1$/;"	m
+CAMP	CAMP/campCommon.h	/^	namespace CAMP$/;"	n	namespace:corelab
+CAMP	CAMP/campDebug.h	/^	namespace CAMP$/;"	n	namespace:corelab
+CAMPCache	CAMP/CampCache.h	/^			CAMPCache() : ModulePass(ID) {}$/;"	f	class:corelab::CAMPCache
+CAMPCache	CAMP/CampCache.h	/^	class CAMPCache: public ModulePass$/;"	c	namespace:corelab
+CAMPExectime	CAMP/CampExectime.h	/^			CAMPExectime() : ModulePass(ID) {}$/;"	f	class:corelab::CAMPExectime
+CAMPExectime	CAMP/CampExectime.h	/^	class CAMPExectime : public ModulePass$/;"	c	namespace:corelab
+CAMPInstaller	CAMP/CAMP.h	/^			CAMPInstaller() : ModulePass(ID) {}$/;"	f	class:corelab::CAMPInstaller
+CAMPInstaller	CAMP/CAMP.h	/^	class CAMPInstaller : public ModulePass$/;"	c	namespace:corelab
+CAMPPlain	CAMP/CampPlain.h	/^			CAMPPlain() : ModulePass(ID) {}$/;"	f	class:corelab::CAMPPlain
+CAMPPlain	CAMP/CampPlain.h	/^	class CAMPPlain : public ModulePass$/;"	c	namespace:corelab
+CAMP_CONTEXT_TREE_APPROACH	CAMP/CAMP.cpp	35;"	d	file:
+CAMP_CONTEXT_TREE_APPROACH	CAMP/CampCache.cpp	6;"	d	file:
+CAMP_CONTEXT_TREE_APPROACH	CAMP/CampExectime.cpp	34;"	d	file:
+CAMP_CONTEXT_TREE_APPROACH	ObjTrace/CtxObjtrace.cpp	35;"	d	file:
+CONTEXT_ITER_CNT_MERGED	CAMP/campCommon.h	24;"	d
+CORELAB_CAMP_COMMON_H	CAMP/campCommon.h	2;"	d
+CORELAB_CAMP_DEBUG_H	CAMP/campDebug.h	9;"	d
+CORELAB_CAMP_META_H	CAMP/campMeta.h	2;"	d
+CallCountOf	AliasAnalysis/IndirectCallAnal.hpp	/^			typedef std::map<FunctionName, unsigned> CallCountOf;\/\/for Statistics$/;"	t	class:corelab::IndirectCallAnal
+CallStack	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef std::vector<const Function *> CallStack; \/\/To fine recursive funcall$/;"	t	class:corelab::RecursiveFuncAnal
+CandidateFunctions	AliasAnalysis/IndirectCallAnal.hpp	/^			typedef std::vector<Function *> CandidateFunctions;$/;"	t	class:corelab::IndirectCallAnal
+CandidateFunctions	AliasAnalysis/LoopTraverse.hpp	/^      typedef std::vector<Function *> CandidateFunctions; $/;"	t	class:corelab::LoopTraverse
+CandidateFunctions	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef std::vector<Function *> CandidateFunctions;$/;"	t	class:corelab::RecursiveFuncAnal
+CandidateFunctions	CAMP/ContextTreeBuilder.h	/^			typedef std::vector<Function *> CandidateFunctions;$/;"	t	class:corelab::ContextTreeBuilder
+CntxID	CAMP/campCommon.h	/^		typedef uint16_t 	CntxID;$/;"	t	namespace:corelab::CAMP
+CntxIDorInstrID	CAMP/ContextTreeBuilder.h	/^	typedef CntxID CntxIDorInstrID;\/\/whether (CntxID or InstrID) which is given by corealb::LoadNamer.$/;"	t	namespace:corelab
+ContextTree	CAMP/ContextTreeBuilder.h	/^			ContextTree(bool b, ContextTreeNode *p, UniqueContextID ucID_)$/;"	f	class:corelab::ContextTree
+ContextTree	CAMP/ContextTreeBuilder.h	/^	class ContextTree{$/;"	c	namespace:corelab
+ContextTreeBuilder	CAMP/ContextTreeBuilder.h	/^			ContextTreeBuilder() : ModulePass(ID) { assignerUcID = 0; maxDepth = 0; nCallSiteNode=0; nLoopNode=0;}$/;"	f	class:corelab::ContextTreeBuilder
+ContextTreeBuilder	CAMP/ContextTreeBuilder.h	/^	class ContextTreeBuilder : public ModulePass$/;"	c	namespace:corelab
+ContextTreeNode	CAMP/ContextTreeBuilder.h	/^	typedef ContextTree ContextTreeNode;$/;"	t	namespace:corelab
+CtxObjtrace	ObjTrace/CtxObjtrace.h	/^			CtxObjtrace() : ModulePass(ID) {}$/;"	f	class:corelab::CtxObjtrace
+CtxObjtrace	ObjTrace/CtxObjtrace.h	/^	class CtxObjtrace  : public ModulePass$/;"	c	namespace:corelab
+DEBUG_TYPE	AliasAnalysis/IndirectCallAnal.cpp	13;"	d	file:
+DEBUG_TYPE	AliasAnalysis/LoopTraverse.cpp	6;"	d	file:
+DEBUG_TYPE	AliasAnalysis/RecursiveFuncAnal.cpp	5;"	d	file:
+DEBUG_TYPE	CAMP/CAMP.h	15;"	d
+DEBUG_TYPE	CAMP/CampExectime.h	16;"	d
+DEBUG_TYPE	CAMP/RegiInterIterDepFinder.h	11;"	d
+DEBUG_TYPE	ObjTrace/ObjTrace.h	15;"	d
+DEP_ELEM_SEQ_MASK	CAMP/campCommon.h	64;"	d
+DEP_ELEM_SEQ_OFF	CAMP/campCommon.h	66;"	d
+DEP_ELEM_SIID_MASK	CAMP/campCommon.h	63;"	d
+DEP_ELEM_SIID_OFF	CAMP/campCommon.h	65;"	d
+DIRS	Makefile	/^DIRS=\\$/;"	m
+DO_NOTHING	AliasAnalysis/RecursiveFuncAnal.cpp	11;"	d	file:
+DO_NOTHING	Utilities/FindFunctionExitBB.cpp	9;"	d	file:
+Debug	CAMP/campDebug.h	/^		namespace Debug$/;"	n	namespace:corelab::CAMP
+DepElem	CAMP/campCommon.h	/^		} DepElem;$/;"	t	namespace:corelab::CAMP	typeref:struct:corelab::CAMP::__anon1
+DepElemID	CAMP/campCommon.h	/^		typedef uint32_t 	DepElemID;$/;"	t	namespace:corelab::CAMP
+DepElemIDSet	CAMP/campCommon.h	/^		typedef unordered_set<DepElemID>	DepElemIDSet;$/;"	t	namespace:corelab::CAMP
+DumpBacktrace	CAMP/campDebug.h	/^			DumpBacktrace ()$/;"	f	namespace:corelab::CAMP::Debug
+EsperantoNamer	Metadata/EsperantoNamer.cpp	/^	EsperantoNamer::EsperantoNamer() : ModulePass(ID) { }$/;"	f	class:corelab::EsperantoNamer
+ExternalCallList	AliasAnalysis/LoopTraverse.hpp	/^      typedef std::vector<const Instruction *> ExternalCallList;$/;"	t	class:corelab::LoopTraverse
+ExternalCallList	CAMP/CAMP.h	/^			typedef std::vector<const Instruction *> ExternalCallList;$/;"	t	class:corelab::CAMPInstaller
+ExternalCallList	CAMP/CampExectime.h	/^			typedef std::vector<const Instruction *> ExternalCallList;$/;"	t	class:corelab::CAMPExectime
+ExternalCallList	ObjTrace/CtxObjtrace.h	/^			typedef std::vector<const Instruction *> ExternalCallList;$/;"	t	class:corelab::CtxObjtrace
+FullID	ObjTrace/CtxObjtrace.h	/^	typedef uint64_t FullID;$/;"	t	namespace:corelab
+FullID	ObjTrace/ObjTrace.h	/^  typedef uint64_t FullID;$/;"	t	namespace:corelab
+FunToMaxDepth	AliasAnalysis/LoopTraverse.hpp	/^      typedef DenseMap<const Function *, unsigned> FunToMaxDepth;$/;"	t	class:corelab::LoopTraverse
+FuncID	CAMP/campCommon.h	/^		typedef uint16_t 	FuncID;$/;"	t	namespace:corelab::CAMP
+FunctionName	AliasAnalysis/IndirectCallAnal.hpp	/^			typedef std::string FunctionName; \/\/Still, i can't trust llvm::StringRef$/;"	t	class:corelab::IndirectCallAnal
+GET_BLK_ID	Metadata/Namer.cpp	34;"	d	file:
+GET_FUNC_ID	Metadata/Namer.cpp	35;"	d	file:
+GET_INSTR_ID	ObjTrace/CtxObjtrace.cpp	37;"	d	file:
+GET_INST_ID	Metadata/Namer.cpp	33;"	d	file:
+GET_TYPE	Metadata/Namer.cpp	36;"	d	file:
+HAS_UNWIND	Utilities/Makefile	/^HAS_UNWIND := ${shell				\\$/;"	m
+ID	AliasAnalysis/IndirectCallAnal.cpp	/^char IndirectCallAnal::ID = 0;$/;"	m	class:IndirectCallAnal	file:
+ID	AliasAnalysis/IndirectCallAnal.hpp	/^			static char ID;$/;"	m	class:corelab::IndirectCallAnal
+ID	AliasAnalysis/LoopTraverse.cpp	/^char LoopTraverse::ID = 0;$/;"	m	class:LoopTraverse	file:
+ID	AliasAnalysis/LoopTraverse.hpp	/^      static char ID;$/;"	m	class:corelab::LoopTraverse
+ID	AliasAnalysis/RecursiveFuncAnal.cpp	/^char RecursiveFuncAnal::ID = 0;$/;"	m	class:RecursiveFuncAnal	file:
+ID	AliasAnalysis/RecursiveFuncAnal.hpp	/^      static char ID;$/;"	m	class:corelab::RecursiveFuncAnal
+ID	CAMP/CAMP.cpp	/^char CAMPInstaller::ID = 0;$/;"	m	class:CAMPInstaller	file:
+ID	CAMP/CAMP.h	/^			static char ID;$/;"	m	class:corelab::CAMPInstaller
+ID	CAMP/CampCache.cpp	/^char CAMPCache::ID = 0;$/;"	m	class:CAMPCache	file:
+ID	CAMP/CampCache.h	/^			static char ID;$/;"	m	class:corelab::CAMPCache
+ID	CAMP/CampExectime.cpp	/^char CAMPExectime::ID = 0;$/;"	m	class:CAMPExectime	file:
+ID	CAMP/CampExectime.h	/^			static char ID;$/;"	m	class:corelab::CAMPExectime
+ID	CAMP/CampPlain.cpp	/^char CAMPPlain::ID = 0;$/;"	m	class:CAMPPlain	file:
+ID	CAMP/CampPlain.h	/^			static char ID;$/;"	m	class:corelab::CAMPPlain
+ID	CAMP/ContextTreeBuilder.cpp	/^char ContextTreeBuilder::ID = 0;$/;"	m	class:ContextTreeBuilder	file:
+ID	CAMP/ContextTreeBuilder.h	/^			static char ID;$/;"	m	class:corelab::ContextTreeBuilder
+ID	CAMP/RegiInterIterDepFinder.cpp	/^char RegiInterIterDepFinder::ID = 0;$/;"	m	class:RegiInterIterDepFinder	file:
+ID	CAMP/RegiInterIterDepFinder.h	/^			static char ID;$/;"	m	class:corelab::RegiInterIterDepFinder
+ID	Metadata/EsperantoNamer.cpp	/^	char EsperantoNamer::ID = 0;$/;"	m	class:corelab::EsperantoNamer	file:
+ID	Metadata/LoadNamer.cpp	/^	char LoadNamer::ID = 0;$/;"	m	class:corelab::LoadNamer	file:
+ID	Metadata/Namer.cpp	/^	char Namer::ID = 0;$/;"	m	class:corelab::Namer	file:
+ID	ObjTrace/CtxObjtrace.cpp	/^char CtxObjtrace::ID = 0;$/;"	m	class:CtxObjtrace	file:
+ID	ObjTrace/CtxObjtrace.h	/^			static char ID;$/;"	m	class:corelab::CtxObjtrace
+ID	ObjTrace/ObjTrace.cpp	/^char ObjTrace::ID = 0;$/;"	m	class:ObjTrace	file:
+ID	ObjTrace/ObjTrace.h	/^      static char ID;$/;"	m	class:corelab::ObjTrace
+ID	Utilities/FindFunctionExitBB.cpp	/^char FindFunctionExitBB::ID = 0;$/;"	m	class:FindFunctionExitBB	file:
+IndirectCall	AliasAnalysis/IndirectCallAnal.hpp	/^			typedef const Instruction * IndirectCall;$/;"	t	class:corelab::IndirectCallAnal
+IndirectCall	AliasAnalysis/LoopTraverse.hpp	/^      typedef const Instruction * IndirectCall;$/;"	t	class:corelab::LoopTraverse
+IndirectCall	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef const Instruction * IndirectCall;$/;"	t	class:corelab::RecursiveFuncAnal
+IndirectCall	CAMP/ContextTreeBuilder.h	/^			typedef const Instruction * IndirectCall;$/;"	t	class:corelab::ContextTreeBuilder
+IndirectCallAnal	AliasAnalysis/IndirectCallAnal.hpp	/^			IndirectCallAnal() : ModulePass(ID) {}$/;"	f	class:corelab::IndirectCallAnal
+IndirectCallAnal	AliasAnalysis/IndirectCallAnal.hpp	/^	class IndirectCallAnal : public ModulePass {$/;"	c	namespace:corelab
+IndirectCallList	AliasAnalysis/IndirectCallAnal.hpp	/^			typedef std::vector<IndirectCall> IndirectCallList;$/;"	t	class:corelab::IndirectCallAnal
+IndirectCallList	AliasAnalysis/LoopTraverse.hpp	/^      typedef std::vector<const Instruction *> IndirectCallList;$/;"	t	class:corelab::LoopTraverse
+IndirectCallList	CAMP/CAMP.h	/^			typedef std::vector<const Instruction *> IndirectCallList;$/;"	t	class:corelab::CAMPInstaller
+IndirectCallList	CAMP/CampExectime.h	/^			typedef std::vector<const Instruction *> IndirectCallList;$/;"	t	class:corelab::CAMPExectime
+IndirectCallList	ObjTrace/CtxObjtrace.h	/^			typedef std::vector<const Instruction *> IndirectCallList;$/;"	t	class:corelab::CtxObjtrace
+IndirectCallMap	AliasAnalysis/LoopTraverse.hpp	/^      typedef std::unordered_map<IndirectCall, CandidateFunctions> IndirectCallMap; \/\/ 1:m (one to many matching)$/;"	t	class:corelab::LoopTraverse
+IndirectCallMap	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef std::unordered_map<IndirectCall, CandidateFunctions> IndirectCallMap; \/\/ 1:m (one to many matching)$/;"	t	class:corelab::RecursiveFuncAnal
+IndirectCallMap	CAMP/ContextTreeBuilder.h	/^			typedef std::unordered_map<IndirectCall, CandidateFunctions> IndirectCallMap; \/\/ 1:m (one to many matching)$/;"	t	class:corelab::ContextTreeBuilder
+InstrID	CAMP/campCommon.h	/^		typedef uint16_t 	InstrID;$/;"	t	namespace:corelab::CAMP
+InstrID	ObjTrace/ObjTrace.h	/^  typedef uint16_t InstrID;$/;"	t	namespace:corelab
+InstrType	CAMP/campCommon.h	/^		} InstrType;$/;"	t	namespace:corelab::CAMP	typeref:enum:corelab::CAMP::__anon2
+IterCnt	CAMP/campCommon.h	/^		typedef uint8_t 	IterCnt;$/;"	t	namespace:corelab::CAMP
+Iterator	CAMP/CampCache.h	/^			int Iterator;$/;"	m	class:corelab::CAMPCache
+LEVEL	AliasAnalysis/Makefile	/^LEVEL=..\/..$/;"	m
+LEVEL	CAMP/Makefile	/^LEVEL=..\/..$/;"	m
+LEVEL	Makefile	/^LEVEL=..$/;"	m
+LEVEL	Metadata/Makefile	/^LEVEL=..\/..$/;"	m
+LEVEL	ObjTrace/Makefile	/^LEVEL=..\/..$/;"	m
+LEVEL	Utilities/Makefile	/^LEVEL=..\/..$/;"	m
+LIBRARYNAME	AliasAnalysis/Makefile	/^LIBRARYNAME=AliasAnalysis$/;"	m
+LIBRARYNAME	CAMP/Makefile	/^LIBRARYNAME=CAMP$/;"	m
+LIBRARYNAME	Metadata/Makefile	/^LIBRARYNAME=Metadata$/;"	m
+LIBRARYNAME	ObjTrace/Makefile	/^LIBRARYNAME=ObjTrace$/;"	m
+LIBRARYNAME	Utilities/Makefile	/^LIBRARYNAME=Utils$/;"	m
+LLVM_CORELAB_CAMP_COTEXT_TREE_BUILDER_H	CAMP/ContextTreeBuilder.h	2;"	d
+LLVM_CORELAB_CAMP_INSTALLER_H	CAMP/CAMP.h	2;"	d
+LLVM_CORELAB_CAMP_INSTALLER_H	CAMP/CampExectime.h	2;"	d
+LLVM_CORELAB_CAMP_INSTALLER_H	CAMP/CampPlain.h	2;"	d
+LLVM_CORELAB_CTX_OBJ_H	ObjTrace/CtxObjtrace.h	2;"	d
+LLVM_CORELAB_INDIRECT_CALL_ANAL_H	AliasAnalysis/IndirectCallAnal.hpp	2;"	d
+LLVM_CORELAB_LOOP_TRAVERSE_H	AliasAnalysis/LoopTraverse.hpp	2;"	d
+LLVM_CORELAB_OBJTRACE_H	ObjTrace/ObjTrace.h	2;"	d
+LLVM_CORELAB_RECURSIVE_FUNC_ANAL_H	AliasAnalysis/RecursiveFuncAnal.hpp	2;"	d
+LLVM_CORELAB_REGI_INTER_ITER_DEP_FINDER_H	CAMP/RegiInterIterDepFinder.h	2;"	d
+LOAD	CAMP/campCommon.h	/^			LOAD 	= 0x00,$/;"	e	enum:corelab::CAMP::__anon2
+LOADABLE_MODULE	AliasAnalysis/Makefile	/^LOADABLE_MODULE = 1$/;"	m
+LOADABLE_MODULE	CAMP/Makefile	/^LOADABLE_MODULE = 1$/;"	m
+LOADABLE_MODULE	Metadata/Makefile	/^LOADABLE_MODULE = 1$/;"	m
+LOADABLE_MODULE	ObjTrace/Makefile	/^LOADABLE_MODULE = 1$/;"	m
+LOADABLE_MODULE	Utilities/Makefile	/^LOADABLE_MODULE = 1$/;"	m
+LocIDMapForCallSite	CAMP/ContextTreeBuilder.h	/^	typedef DenseMap<const Instruction *, LocalContextID> LocIDMapForCallSite;\/\/ if key is instrID of indirect call, then value is -1$/;"	t	namespace:corelab
+LocIDMapForIndirectCalls	CAMP/ContextTreeBuilder.h	/^	typedef DenseMap<const Instruction *, std::vector<std::pair<Function *, LocalContextID>>> LocIDMapForIndirectCalls;$/;"	t	namespace:corelab
+LocIDMapForLoop	CAMP/ContextTreeBuilder.h	/^	typedef std::unordered_map<CntxID, LocalContextID> LocIDMapForLoop; \/\/ CntxID == LoopID;$/;"	t	namespace:corelab
+LocalContextID	CAMP/ContextTreeBuilder.h	/^	typedef uint16_t LocalContextID;$/;"	t	namespace:corelab
+LoopID	CAMP/CAMP.h	/^			typedef CntxID LoopID;$/;"	t	class:corelab::CAMPInstaller
+LoopID	CAMP/CampExectime.h	/^			typedef CntxID LoopID;$/;"	t	class:corelab::CAMPExectime
+LoopID	CAMP/RegiInterIterDepFinder.h	/^	typedef CntxID LoopID;$/;"	t	namespace:corelab
+LoopID	ObjTrace/CtxObjtrace.h	/^			typedef CntxID LoopID;$/;"	t	class:corelab::CtxObjtrace
+LoopIdOf	CAMP/ContextTreeBuilder.h	/^			typedef DenseMap<const Loop *, CntxID > LoopIdOf; \/\/ CntxID == LoopID;$/;"	t	class:corelab::ContextTreeBuilder
+LoopInfoOfFunc	AliasAnalysis/LoopTraverse.hpp	/^      typedef DenseMap<const Function *, LoopInfo * > LoopInfoOfFunc; $/;"	t	class:corelab::LoopTraverse
+LoopInfoOfFunc	CAMP/ContextTreeBuilder.h	/^			typedef DenseMap<const Function *, LoopInfo * > LoopInfoOfFunc; $/;"	t	class:corelab::ContextTreeBuilder
+LoopNodeTraverse	CAMP/ContextTreeBuilder.cpp	/^bool ContextTreeBuilder::LoopNodeTraverse(ContextTreeNode *loopNode){$/;"	f	class:ContextTreeBuilder
+LoopOfCntxID	CAMP/ContextTreeBuilder.h	/^			typedef std::map<CntxID, const Loop *> LoopOfCntxID;\/\/inverse of LoopIdOf$/;"	t	class:corelab::ContextTreeBuilder
+LoopTraverse	AliasAnalysis/LoopTraverse.hpp	/^      LoopTraverse() : ModulePass(ID) {}$/;"	f	class:corelab::LoopTraverse
+LoopTraverse	AliasAnalysis/LoopTraverse.hpp	/^  class LoopTraverse : public ModulePass {$/;"	c	namespace:corelab
+MAX_CNTX_LV	CAMP/campCommon.h	18;"	d
+MIN_CNTX_LV	CAMP/campCommon.h	19;"	d
+Matching	AliasAnalysis/IndirectCallAnal.hpp	/^			typedef std::map<IndirectCall, CandidateFunctions> Matching; \/\/ 1:m (one to many matching)$/;"	t	class:corelab::IndirectCallAnal
+Namer	Metadata/Namer.cpp	/^	Namer::Namer() : ModulePass(ID) {}$/;"	f	class:corelab::Namer
+NonRecursiveFuncList	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef std::unordered_set<const Function *> NonRecursiveFuncList;$/;"	t	class:corelab::RecursiveFuncAnal
+NumLoopCarriedDepMap	CAMP/RegiInterIterDepFinder.h	/^	typedef std::map<LoopID, unsigned> NumLoopCarriedDepMap;\/\/inverse of LoopIdOf$/;"	t	namespace:corelab
+OUT	CAMP/campCommon.h	15;"	d
+ObjTrace	ObjTrace/ObjTrace.h	/^      ObjTrace() : ModulePass(ID) {}$/;"	f	class:corelab::ObjTrace
+ObjTrace	ObjTrace/ObjTrace.h	/^  class ObjTrace : public ModulePass {$/;"	c	namespace:corelab
+RecursiveCallList	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef std::vector<const Instruction *> RecursiveCallList;$/;"	t	class:corelab::RecursiveFuncAnal
+RecursiveFunCallList	AliasAnalysis/LoopTraverse.hpp	/^      typedef std::vector<const Instruction *> RecursiveFunCallList;$/;"	t	class:corelab::LoopTraverse
+RecursiveFunCallList	CAMP/ContextTreeBuilder.h	/^			typedef std::vector<const Instruction *> RecursiveFunCallList;$/;"	t	class:corelab::ContextTreeBuilder
+RecursiveFuncAnal	AliasAnalysis/RecursiveFuncAnal.hpp	/^      RecursiveFuncAnal() : ModulePass(ID) {}$/;"	f	class:corelab::RecursiveFuncAnal
+RecursiveFuncAnal	AliasAnalysis/RecursiveFuncAnal.hpp	/^  class RecursiveFuncAnal : public ModulePass {$/;"	c	namespace:corelab
+RecursiveFuncList	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef std::unordered_set<const Function *> RecursiveFuncList;$/;"	t	class:corelab::RecursiveFuncAnal
+RegiInterIterDepFinder	CAMP/RegiInterIterDepFinder.h	/^			RegiInterIterDepFinder() : ModulePass(ID) {}$/;"	f	class:corelab::RegiInterIterDepFinder
+RegiInterIterDepFinder	CAMP/RegiInterIterDepFinder.h	/^	class RegiInterIterDepFinder : public ModulePass$/;"	c	namespace:corelab
+SHARED_LIBRARY	AliasAnalysis/Makefile	/^SHARED_LIBRARY=1$/;"	m
+SHARED_LIBRARY	Utilities/Makefile	/^SHARED_LIBRARY=1$/;"	m
+STK_CNTXID_SIZE	CAMP/campCommon.h	22;"	d
+STK_ITERCNT_SIZE	CAMP/campCommon.h	23;"	d
+STORE	CAMP/campCommon.h	/^			STORE = 0x01$/;"	e	enum:corelab::CAMP::__anon2
+TRED_BINARY	Utilities/Makefile	/^TRED_BINARY=${shell which tred || which cat }$/;"	m
+TREE_MAX_DEPTH_LIMIT	CAMP/ContextTreeBuilder.h	19;"	d
+UNIMPLEMENTED	AliasAnalysis/IndirectCallAnal.hpp	16;"	d
+UNIMPLEMENTED	AliasAnalysis/LoopTraverse.hpp	15;"	d
+UNIMPLEMENTED	AliasAnalysis/RecursiveFuncAnal.hpp	15;"	d
+UNUSED	CAMP/campCommon.h	16;"	d
+UniqueContextID	CAMP/ContextTreeBuilder.h	/^	typedef uint32_t UniqueContextID;$/;"	t	namespace:corelab
+addCallSiteInfo	CAMP/ContextTreeBuilder.cpp	/^void ContextTree::addCallSiteInfo(const Instruction *invokeOrCallInst_, Function *f, LocIDMapForCallSite &locIdOf_callSite){$/;"	f	class:ContextTree
+addChild	CAMP/ContextTreeBuilder.h	/^			void addChild(ContextTreeNode *c){$/;"	f	class:corelab::ContextTree
+addLoopInfo	CAMP/ContextTreeBuilder.cpp	/^void ContextTree::addLoopInfo(Loop *l, CntxID cntxID_, LocIDMapForLoop &locIdOf_loop){$/;"	f	class:ContextTree
+addMetadata	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::addMetadata() {$/;"	f	class:corelab::EsperantoNamer
+addProfilingCodeForCallSite	CAMP/CAMP.cpp	/^void CAMPInstaller::addProfilingCodeForCallSite(Instruction *invokeOrCallInst, Value *locIDVal){$/;"	f	class:CAMPInstaller
+addProfilingCodeForCallSite	CAMP/CampExectime.cpp	/^void CAMPExectime::addProfilingCodeForCallSite(Instruction *invokeOrCallInst, Value *locIDVal){$/;"	f	class:CAMPExectime
+addProfilingCodeForCallSite	ObjTrace/CtxObjtrace.cpp	/^void CtxObjtrace::addProfilingCodeForCallSite(Instruction *invokeOrCallInst, Value *locIDVal){$/;"	f	class:CtxObjtrace
+addProfilingCodeForLoop	CAMP/CAMP.cpp	/^void CAMPInstaller::addProfilingCodeForLoop(Loop *L, Value *locIDVal){$/;"	f	class:CAMPInstaller
+addProfilingCodeForLoop	CAMP/CampExectime.cpp	/^void CAMPExectime::addProfilingCodeForLoop(Loop *L, Value *locIDVal){$/;"	f	class:CAMPExectime
+addProfilingCodeForLoop	ObjTrace/CtxObjtrace.cpp	/^void CtxObjtrace::addProfilingCodeForLoop(Loop *L, Value *locIDVal){$/;"	f	class:CtxObjtrace
+addTargetComparisonCodeForIndCall	CAMP/CAMP.cpp	/^Value *CAMPInstaller::addTargetComparisonCodeForIndCall(const Instruction *invokeOrCallInst, std::vector<std::pair<Function *, LocalContextID>> &targetLocIDs){$/;"	f	class:CAMPInstaller
+addTargetComparisonCodeForIndCall	CAMP/CampExectime.cpp	/^Value *CAMPExectime::addTargetComparisonCodeForIndCall(const Instruction *invokeOrCallInst, std::vector<std::pair<Function *, LocalContextID>> &targetLocIDs){$/;"	f	class:CAMPExectime
+addTargetComparisonCodeForIndCall	ObjTrace/CtxObjtrace.cpp	/^Value *CtxObjtrace::addTargetComparisonCodeForIndCall(const Instruction *invokeOrCallInst, std::vector<std::pair<Function *, LocalContextID>> &targetLocIDs){$/;"	f	class:CtxObjtrace
+appendToConstructorArray	Utilities/GlobalCtors.cpp	/^  static void appendToConstructorArray( Function *f, const std::string &name, const unsigned int priority = 65535, const bool ascending = true) {$/;"	f	namespace:corelab
+assignerUcID	CAMP/ContextTreeBuilder.h	/^			UniqueContextID assignerUcID;$/;"	m	class:corelab::ContextTreeBuilder
+begin	AliasAnalysis/RecursiveFuncAnal.hpp	/^      const_iterator          begin() const { return recFuncList.begin(); }$/;"	f	class:corelab::RecursiveFuncAnal
+begin	AliasAnalysis/RecursiveFuncAnal.hpp	/^      iterator                begin()       { return recFuncList.begin(); }$/;"	f	class:corelab::RecursiveFuncAnal
+buildCalledFunctionList	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::buildCalledFunctionList(){$/;"	f	class:corelab::EsperantoNamer
+buildClassNameList	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::buildClassNameList(){$/;"	f	class:corelab::EsperantoNamer
+buildRemoteCallFunctionTable	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::buildRemoteCallFunctionTable(){$/;"	f	class:corelab::EsperantoNamer
+buildTypeBasedMatching	AliasAnalysis/IndirectCallAnal.cpp	/^void IndirectCallAnal::buildTypeBasedMatching(){$/;"	f	class:IndirectCallAnal
+callAfterMain	Utilities/GlobalCtors.cpp	/^  void callAfterMain( Function *f, const unsigned int priority ) {$/;"	f	namespace:corelab
+callBeforeMain	Utilities/GlobalCtors.cpp	/^  void callBeforeMain( Function *f, const unsigned int priority) {$/;"	f	namespace:corelab
+callCntOf	AliasAnalysis/IndirectCallAnal.hpp	/^			CallCountOf callCntOf; \/\/for Statistics, # of indirect call count for eeach target Candidate functions.	$/;"	m	class:corelab::IndirectCallAnal
+callHistory	AliasAnalysis/RecursiveFuncAnal.hpp	/^      CallStack callHistory; \/\/mutually recursive functions may be represented as one recursive function$/;"	m	class:corelab::RecursiveFuncAnal
+callsWithNoTarget	AliasAnalysis/RecursiveFuncAnal.hpp	/^      std::vector<IndirectCall> callsWithNoTarget;$/;"	m	class:corelab::RecursiveFuncAnal
+callsWithNoTarget	CAMP/ContextTreeBuilder.h	/^			std::vector<IndirectCall> callsWithNoTarget;$/;"	m	class:corelab::ContextTreeBuilder
+campCallSiteBegin	CAMP/CAMP.h	/^			Constant *campCallSiteBegin;$/;"	m	class:corelab::CAMPInstaller
+campCallSiteEnd	CAMP/CAMP.h	/^			Constant *campCallSiteEnd;$/;"	m	class:corelab::CAMPInstaller
+campCalloc	CAMP/CAMP.h	/^			Constant *campCalloc;$/;"	m	class:corelab::CAMPInstaller
+campDisableCtxtChange	CAMP/CAMP.h	/^			Constant *campDisableCtxtChange;$/;"	m	class:corelab::CAMPInstaller
+campEnableCtxtChange	CAMP/CAMP.h	/^			Constant *campEnableCtxtChange;$/;"	m	class:corelab::CAMPInstaller
+campExecCallSiteBegin	CAMP/CampExectime.h	/^			Constant *campExecCallSiteBegin;$/;"	m	class:corelab::CAMPExectime
+campExecCallSiteEnd	CAMP/CampExectime.h	/^			Constant *campExecCallSiteEnd;$/;"	m	class:corelab::CAMPExectime
+campExecDisableCtxtChange	CAMP/CampExectime.h	/^			Constant *campExecDisableCtxtChange;$/;"	m	class:corelab::CAMPExectime
+campExecEnableCtxtChange	CAMP/CampExectime.h	/^			Constant *campExecEnableCtxtChange;$/;"	m	class:corelab::CAMPExectime
+campExecFinalize	CAMP/CampExectime.h	/^			Constant *campExecFinalize;$/;"	m	class:corelab::CAMPExectime
+campExecInitialize	CAMP/CampExectime.h	/^			Constant *campExecInitialize;$/;"	m	class:corelab::CAMPExectime
+campExecLoopBegin	CAMP/CampExectime.h	/^			Constant *campExecLoopBegin;$/;"	m	class:corelab::CAMPExectime
+campExecLoopEnd	CAMP/CampExectime.h	/^			Constant *campExecLoopEnd;$/;"	m	class:corelab::CAMPExectime
+campExecLoopNext	CAMP/CampExectime.h	/^			Constant *campExecLoopNext;$/;"	m	class:corelab::CAMPExectime
+campFinalize	CAMP/CAMP.h	/^			Constant *campFinalize;$/;"	m	class:corelab::CAMPInstaller
+campFinalize	CAMP/CampPlain.h	/^			Constant *campFinalize;$/;"	m	class:corelab::CAMPPlain
+campFree	CAMP/CAMP.h	/^			Constant *campFree;$/;"	m	class:corelab::CAMPInstaller
+campInitialize	CAMP/CAMP.h	/^			Constant *campInitialize;$/;"	m	class:corelab::CAMPInstaller
+campInitialize	CAMP/CampPlain.h	/^			Constant *campInitialize;$/;"	m	class:corelab::CAMPPlain
+campLoadInstr	CAMP/CAMP.h	/^			Constant *campLoadInstr;$/;"	m	class:corelab::CAMPInstaller
+campLoopBegin	CAMP/CAMP.h	/^			Constant *campLoopBegin;$/;"	m	class:corelab::CAMPInstaller
+campLoopEnd	CAMP/CAMP.h	/^			Constant *campLoopEnd;$/;"	m	class:corelab::CAMPInstaller
+campLoopNext	CAMP/CAMP.h	/^			Constant *campLoopNext;$/;"	m	class:corelab::CAMPInstaller
+campMalloc	CAMP/CAMP.h	/^			Constant *campMalloc;$/;"	m	class:corelab::CAMPInstaller
+campRealloc	CAMP/CAMP.h	/^			Constant *campRealloc;$/;"	m	class:corelab::CAMPInstaller
+campStoreInstr	CAMP/CAMP.h	/^			Constant *campStoreInstr;$/;"	m	class:corelab::CAMPInstaller
+castTo	CAMP/CAMP.cpp	/^Value* CAMPInstaller::castTo(Value* from, Value* to, InstInsertPt &out, const DataLayout *dl)$/;"	f	class:CAMPInstaller
+castTo	ObjTrace/CtxObjtrace.cpp	/^Value* CtxObjtrace::castTo(Value* from, Value* to, InstInsertPt &out, const DataLayout *dl)$/;"	f	class:CtxObjtrace
+castTo	ObjTrace/ObjTrace.cpp	/^Value* ObjTrace::castTo(Value* from, Value* to, InstInsertPt &out, const DataLayout *dl)$/;"	f	class:ObjTrace
+checkCallHistoryAndMark	AliasAnalysis/RecursiveFuncAnal.cpp	/^bool RecursiveFuncAnal::checkCallHistoryAndMark(Instruction *invokeOrCallInst, Function *callee){$/;"	f	class:RecursiveFuncAnal
+checkCallInsts	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::checkCallInsts(Function* F, EsperantoNamer::DeviceEntry* dev) {	$/;"	f	class:corelab::EsperantoNamer
+checkFunction	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::checkFunction() {$/;"	f	class:corelab::EsperantoNamer
+checkUseDefChains	Metadata/EsperantoNamer.cpp	/^	bool EsperantoNamer::checkUseDefChains() {$/;"	f	class:corelab::EsperantoNamer
+children	CAMP/ContextTreeBuilder.h	/^			std::vector<ContextTree *> children;$/;"	m	class:corelab::ContextTree
+cntxID	CAMP/ContextTreeBuilder.h	/^			CntxID cntxID;	\/\/for Loop$/;"	m	class:corelab::ContextTree
+collectAllIndirectCalls	AliasAnalysis/IndirectCallAnal.cpp	/^void IndirectCallAnal::collectAllIndirectCalls(){$/;"	f	class:IndirectCallAnal
+const_iterator	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef RecursiveFuncList::const_iterator const_iterator;$/;"	t	class:corelab::RecursiveFuncAnal
+const_reccall_iterator	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef RecursiveCallList::const_iterator const_reccall_iterator;$/;"	t	class:corelab::RecursiveFuncAnal
+contextTreeDumpToFile	CAMP/ContextTreeBuilder.cpp	/^void ContextTreeBuilder::contextTreeDumpToFile(std::string path){$/;"	f	class:ContextTreeBuilder
+contextTreeDumpToGvfile	CAMP/ContextTreeBuilder.cpp	/^void ContextTreeBuilder::contextTreeDumpToGvfile(std::string path){$/;"	f	class:ContextTreeBuilder
+corelab	AliasAnalysis/IndirectCallAnal.hpp	/^namespace corelab$/;"	n
+corelab	AliasAnalysis/LoopTraverse.hpp	/^namespace corelab$/;"	n
+corelab	AliasAnalysis/RecursiveFuncAnal.hpp	/^namespace corelab$/;"	n
+corelab	CAMP/CAMP.h	/^namespace corelab$/;"	n
+corelab	CAMP/CampCache.h	/^namespace corelab$/;"	n
+corelab	CAMP/CampExectime.h	/^namespace corelab$/;"	n
+corelab	CAMP/CampPlain.h	/^namespace corelab$/;"	n
+corelab	CAMP/ContextTreeBuilder.h	/^namespace corelab$/;"	n
+corelab	CAMP/RegiInterIterDepFinder.h	/^namespace corelab$/;"	n
+corelab	CAMP/campCommon.h	/^namespace corelab$/;"	n
+corelab	CAMP/campDebug.h	/^namespace corelab$/;"	n
+corelab	Metadata/EsperantoNamer.cpp	/^namespace corelab {$/;"	n	file:
+corelab	Metadata/LoadNamer.cpp	/^namespace corelab {$/;"	n	file:
+corelab	Metadata/Namer.cpp	/^namespace corelab{$/;"	n	file:
+corelab	ObjTrace/CtxObjtrace.h	/^namespace corelab$/;"	n
+corelab	ObjTrace/ObjTrace.h	/^namespace corelab {$/;"	n
+corelab	Utilities/GlobalCtors.cpp	/^namespace corelab {$/;"	n	file:
+corelab	Utilities/InstInsertPt.cpp	/^namespace corelab {$/;"	n	file:
+ctxObjCallSiteBegin	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjCallSiteBegin;$/;"	m	class:corelab::CtxObjtrace
+ctxObjCallSiteEnd	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjCallSiteEnd;$/;"	m	class:corelab::CtxObjtrace
+ctxObjCalloc	ObjTrace/CtxObjtrace.h	/^      Constant *ctxObjCalloc;$/;"	m	class:corelab::CtxObjtrace
+ctxObjDisableCtxtChange	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjDisableCtxtChange;$/;"	m	class:corelab::CtxObjtrace
+ctxObjEnableCtxtChange	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjEnableCtxtChange;$/;"	m	class:corelab::CtxObjtrace
+ctxObjFinalize	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjFinalize;$/;"	m	class:corelab::CtxObjtrace
+ctxObjInitialize	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjInitialize;$/;"	m	class:corelab::CtxObjtrace
+ctxObjLoadInstr	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjLoadInstr;$/;"	m	class:corelab::CtxObjtrace
+ctxObjLoopBegin	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjLoopBegin;$/;"	m	class:corelab::CtxObjtrace
+ctxObjLoopEnd	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjLoopEnd;$/;"	m	class:corelab::CtxObjtrace
+ctxObjLoopNext	ObjTrace/CtxObjtrace.h	/^			Constant *ctxObjLoopNext;$/;"	m	class:corelab::CtxObjtrace
+ctxObjMalloc	ObjTrace/CtxObjtrace.h	/^      Constant *ctxObjMalloc;$/;"	m	class:corelab::CtxObjtrace
+ctxObjRealloc	ObjTrace/CtxObjtrace.h	/^      Constant *ctxObjRealloc;$/;"	m	class:corelab::CtxObjtrace
+ctxObjStoreInstr	ObjTrace/CtxObjtrace.h	/^      Constant *ctxObjStoreInstr;$/;"	m	class:corelab::CtxObjtrace
+cxtTree	CAMP/ContextTreeBuilder.h	/^			std::vector<ContextTreeNode *> cxtTree;$/;"	m	class:corelab::ContextTreeBuilder
+cxtTreeBuilder	CAMP/CAMP.h	/^			ContextTreeBuilder *cxtTreeBuilder;$/;"	m	class:corelab::CAMPInstaller
+cxtTreeBuilder	CAMP/CampCache.h	/^			ContextTreeBuilder *cxtTreeBuilder;$/;"	m	class:corelab::CAMPCache
+cxtTreeBuilder	CAMP/CampExectime.h	/^			ContextTreeBuilder *cxtTreeBuilder;$/;"	m	class:corelab::CAMPExectime
+cxtTreeBuilder	CAMP/RegiInterIterDepFinder.h	/^			ContextTreeBuilder *cxtTreeBuilder;$/;"	m	class:corelab::RegiInterIterDepFinder
+cxtTreeBuilder	ObjTrace/CtxObjtrace.h	/^			ContextTreeBuilder *cxtTreeBuilder;$/;"	m	class:corelab::CtxObjtrace
+depth	CAMP/ContextTreeBuilder.cpp	/^unsigned ContextTree::depth(){$/;"	f	class:ContextTree
+done	CAMP/ContextTreeBuilder.h	/^			bool done; \/\/for cache grind$/;"	m	class:corelab::ContextTree
+dstInstrID	CAMP/campCommon.h	/^			InstrID 	dstInstrID;												\/\/ Destination Instrction ID$/;"	m	struct:corelab::CAMP::__anon1
+dstStkCntxID	CAMP/campCommon.h	/^			CntxID 		dstStkCntxID[MAX_CNTX_LV + 1];		\/\/ Destination Context ID Stack$/;"	m	struct:corelab::CAMP::__anon1
+dump	Utilities/InstInsertPt.cpp	/^  void InstInsertPt::dump() const {$/;"	f	class:corelab::InstInsertPt
+empty	AliasAnalysis/RecursiveFuncAnal.hpp	/^      bool                    empty() const { return recFuncList.empty(); }$/;"	f	class:corelab::RecursiveFuncAnal
+end	AliasAnalysis/RecursiveFuncAnal.hpp	/^      const_iterator          end  () const { return recFuncList.end();   }$/;"	f	class:corelab::RecursiveFuncAnal
+end	AliasAnalysis/RecursiveFuncAnal.hpp	/^      iterator                end  ()       { return recFuncList.end();   }$/;"	f	class:corelab::RecursiveFuncAnal
+externalCalls	AliasAnalysis/LoopTraverse.hpp	/^      ExternalCallList externalCalls;$/;"	m	class:corelab::LoopTraverse
+externalCalls	CAMP/CAMP.h	/^			ExternalCallList externalCalls;$/;"	m	class:corelab::CAMPInstaller
+externalCalls	CAMP/CampExectime.h	/^			ExternalCallList externalCalls;$/;"	m	class:corelab::CAMPExectime
+externalCalls	ObjTrace/CtxObjtrace.h	/^			ExternalCallList externalCalls;$/;"	m	class:corelab::CtxObjtrace
+findAllRecursiveFunction	AliasAnalysis/RecursiveFuncAnal.cpp	/^void RecursiveFuncAnal::findAllRecursiveFunction()$/;"	f	class:RecursiveFuncAnal
+findExitBBs	Utilities/FindFunctionExitBB.cpp	/^void FindFunctionExitBB::findExitBBs(Function *fun){$/;"	f	class:FindFunctionExitBB
+func	CAMP/ContextTreeBuilder.h	/^			Function *func;\/\/callee$/;"	m	class:corelab::ContextTree
+functionNodeTraverse	CAMP/ContextTreeBuilder.cpp	/^bool ContextTreeBuilder::functionNodeTraverse(ContextTreeNode *callSiteNode){$/;"	f	class:ContextTreeBuilder
+getAnalysisUsage	CAMP/CAMP.h	/^			virtual void getAnalysisUsage(AnalysisUsage &AU) const$/;"	f	class:corelab::CAMPInstaller
+getAnalysisUsage	CAMP/CampCache.h	/^			virtual void getAnalysisUsage(AnalysisUsage &AU) const$/;"	f	class:corelab::CAMPCache
+getAnalysisUsage	CAMP/CampExectime.h	/^			virtual void getAnalysisUsage(AnalysisUsage &AU) const$/;"	f	class:corelab::CAMPExectime
+getAnalysisUsage	CAMP/CampPlain.h	/^			virtual void getAnalysisUsage(AnalysisUsage &AU) const$/;"	f	class:corelab::CAMPPlain
+getAnalysisUsage	CAMP/ContextTreeBuilder.h	/^			virtual void getAnalysisUsage(AnalysisUsage &AU) const$/;"	f	class:corelab::ContextTreeBuilder
+getAnalysisUsage	CAMP/RegiInterIterDepFinder.h	/^			virtual void getAnalysisUsage(AnalysisUsage &AU) const$/;"	f	class:corelab::RegiInterIterDepFinder
+getAnalysisUsage	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:corelab::EsperantoNamer
+getAnalysisUsage	Metadata/LoadNamer.cpp	/^	void LoadNamer::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:corelab::LoadNamer
+getAnalysisUsage	Metadata/Namer.cpp	/^	void Namer::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:corelab::Namer
+getAnalysisUsage	ObjTrace/CtxObjtrace.h	/^			virtual void getAnalysisUsage(AnalysisUsage &AU) const$/;"	f	class:corelab::CtxObjtrace
+getAnalysisUsage	ObjTrace/ObjTrace.h	/^      virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:corelab::ObjTrace
+getBlkId	Metadata/Namer.cpp	/^	uint16_t Namer::getBlkId(const Instruction *I) {$/;"	f	class:corelab::Namer
+getCallInst	CAMP/ContextTreeBuilder.h	/^			inline const Instruction* getCallInst(){return invokeOrCallInst;}$/;"	f	class:corelab::ContextTree
+getCalledFunctionId	Metadata/LoadNamer.cpp	/^	uint16_t LoadNamer::getCalledFunctionId(uint16_t id) {$/;"	f	class:corelab::LoadNamer
+getCalledFunction_aux	AliasAnalysis/IndirectCallAnal.cpp	/^Function *getCalledFunction_aux(Instruction* indCall){$/;"	f
+getCalledFunction_aux	CAMP/ContextTreeBuilder.cpp	/^Function *getCalledFunction_aux(Instruction* indCall){$/;"	f
+getCalledFunction_aux	ObjTrace/CtxObjtrace.cpp	/^static Function *getCalledFunction_aux(Instruction* indCall){$/;"	f	file:
+getCalledFunction_aux	ObjTrace/ObjTrace.cpp	/^static Function *getCalledFunction_aux(Instruction* indCall){$/;"	f	file:
+getCalledValueOfIndCall	AliasAnalysis/IndirectCallAnal.cpp	/^const Value *getCalledValueOfIndCall(const Instruction* indCall){$/;"	f
+getCalledValueOfIndCall	CAMP/ContextTreeBuilder.cpp	/^const Value *getCalledValueOfIndCall(const Instruction* indCall){$/;"	f
+getCalledValueOfIndCall	ObjTrace/CtxObjtrace.cpp	/^static const Value *getCalledValueOfIndCall(const Instruction* indCall){$/;"	f	file:
+getCalledValueOfIndCall	ObjTrace/ObjTrace.cpp	/^static const Value *getCalledValueOfIndCall(const Instruction* indCall){$/;"	f	file:
+getCallee	CAMP/ContextTreeBuilder.h	/^			inline Function* getCallee(){return func;}$/;"	f	class:corelab::ContextTree
+getCallingFunctionId	Metadata/LoadNamer.cpp	/^	uint16_t LoadNamer::getCallingFunctionId(uint16_t id) {$/;"	f	class:corelab::LoadNamer
+getChildren	CAMP/ContextTreeBuilder.h	/^			inline std::vector<ContextTree *> *getChildren(){return &children;}$/;"	f	class:corelab::ContextTree
+getClassNameInFunction	Metadata/EsperantoNamer.cpp	/^	 std::string EsperantoNamer::getClassNameInFunction(StringRef functionName){$/;"	f	class:corelab::EsperantoNamer
+getCntxIDforLoop	CAMP/ContextTreeBuilder.h	/^			inline CntxID getCntxIDforLoop(){return cntxID;}$/;"	f	class:corelab::ContextTree
+getContextTree	CAMP/ContextTreeBuilder.h	/^			std::vector<ContextTreeNode *> *getContextTree() {return &cxtTree;}$/;"	f	class:corelab::ContextTreeBuilder
+getDeviceInfo	Metadata/EsperantoNamer.cpp	/^	EsperantoNamer::DeviceEntry* EsperantoNamer::getDeviceInfo(Function* F) {$/;"	f	class:corelab::EsperantoNamer
+getExitBB	Utilities/FindFunctionExitBB.cpp	/^FindFunctionExitBB::ExitBBs& FindFunctionExitBB::getExitBB(Function *fun){$/;"	f	class:FindFunctionExitBB
+getExitBBOfFunctionWithNoRetInst	Utilities/FindFunctionExitBB.cpp	/^BasicBlock *FindFunctionExitBB::getExitBBOfFunctionWithNoRetInst(Function *fun){$/;"	f	class:FindFunctionExitBB
+getFullId	Metadata/Namer.cpp	/^	uint64_t Namer::getFullId(const Instruction *I) {$/;"	f	class:corelab::Namer
+getFuncId	Metadata/Namer.cpp	/^	uint16_t Namer::getFuncId(const Instruction *I) {$/;"	f	class:corelab::Namer
+getFunction	Metadata/LoadNamer.cpp	/^	Function* LoadNamer::getFunction(Module &M, uint16_t funcId) {$/;"	f	class:corelab::LoadNamer
+getFunctionId	Metadata/LoadNamer.cpp	/^	uint16_t LoadNamer::getFunctionId(Function &F) {$/;"	f	class:corelab::LoadNamer
+getFunctionId	Metadata/LoadNamer.cpp	/^	uint16_t LoadNamer::getFunctionId(const char* fName) {$/;"	f	class:corelab::LoadNamer
+getIdCount	Metadata/EsperantoNamer.cpp	/^	int EsperantoNamer::getIdCount(CallInst* call) {$/;"	f	class:corelab::EsperantoNamer
+getIdCount	Metadata/EsperantoNamer.cpp	/^	int EsperantoNamer::getIdCount(DeviceEntry* dev) {$/;"	f	class:corelab::EsperantoNamer
+getInstrId	Metadata/Namer.cpp	/^	uint16_t Namer::getInstrId(const Instruction *I) {$/;"	f	class:corelab::Namer
+getInstrType	Metadata/Namer.cpp	/^	char Namer::getInstrType(const Instruction *I) {$/;"	f	class:corelab::Namer
+getLocID	CAMP/ContextTreeBuilder.h	/^			inline LocalContextID getLocID(){return locID;}$/;"	f	class:corelab::ContextTree
+getLocIDMapForCallSite	CAMP/ContextTreeBuilder.h	/^			LocIDMapForCallSite *getLocIDMapForCallSite(){return &locIdOf_callSite;}$/;"	f	class:corelab::ContextTreeBuilder
+getLocIDMapForIndirectCalls	CAMP/ContextTreeBuilder.h	/^			LocIDMapForIndirectCalls *getLocIDMapForIndirectCalls(){return &locIdOf_indCall;}$/;"	f	class:corelab::ContextTreeBuilder
+getLocIDMapForLoop	CAMP/ContextTreeBuilder.h	/^			LocIDMapForLoop *getLocIDMapForLoop(){return &locIdOf_loop;}$/;"	f	class:corelab::ContextTreeBuilder
+getLocalContextID	CAMP/ContextTreeBuilder.h	/^			inline LocalContextID getLocalContextID(){return locID;}$/;"	f	class:corelab::ContextTree
+getLoop	CAMP/ContextTreeBuilder.h	/^			inline const Loop* getLoop(){return loop;}$/;"	f	class:corelab::ContextTree
+getLoopContextId	Metadata/LoadNamer.cpp	/^	uint16_t LoadNamer::getLoopContextId(Loop *L, uint16_t functionId) {$/;"	f	class:corelab::LoadNamer
+getLoopDepth	AliasAnalysis/LoopTraverse.cpp	/^unsigned LoopTraverse::getLoopDepth(const Loop *loop) {$/;"	f	class:LoopTraverse
+getLoopDepth_aux	AliasAnalysis/LoopTraverse.cpp	/^unsigned LoopTraverse::getLoopDepth_aux(Function *func) {$/;"	f	class:LoopTraverse
+getLoopIDMap	CAMP/ContextTreeBuilder.h	/^			LoopIdOf *getLoopIDMap(){return &loopIdOf;}$/;"	f	class:corelab::ContextTreeBuilder
+getLoopInfo	CAMP/ContextTreeBuilder.h	/^			LoopInfoOfFunc *getLoopInfo(){ return &loopInfoOf;}$/;"	f	class:corelab::ContextTreeBuilder
+getLoopMapOfCntxID	CAMP/ContextTreeBuilder.h	/^			LoopOfCntxID *getLoopMapOfCntxID(){return &loopOfCntxID;}$/;"	f	class:corelab::ContextTreeBuilder
+getMaxLoopDepth	AliasAnalysis/LoopTraverse.cpp	/^unsigned LoopTraverse::getMaxLoopDepth(){$/;"	f	class:LoopTraverse
+getNameOfTarget	AliasAnalysis/IndirectCallAnal.cpp	/^StringRef getNameOfTarget(const Value *calledVal){$/;"	f
+getNextInstruction	Utilities/InstInsertPt.cpp	/^	Instruction *getNextInstruction(Instruction *i){$/;"	f	namespace:corelab
+getOrInsertDeviceList	Metadata/EsperantoNamer.cpp	/^	EsperantoNamer::DeviceEntry* EsperantoNamer::getOrInsertDeviceList(const char* compName, const char* compType) {$/;"	f	class:corelab::EsperantoNamer
+getParent	CAMP/ContextTreeBuilder.h	/^			inline ContextTree* getParent(){return parent;}$/;"	f	class:corelab::ContextTree
+getParentUCID	CAMP/CampCache.cpp	/^UniqueContextID CAMPCache::getParentUCID ( ContextTreeNode *node )$/;"	f	class:CAMPCache
+getParentUCID	CAMP/ContextTreeBuilder.h	/^			UniqueContextID getParentUCID (ContextTreeNode *myNode) $/;"	f	class:corelab::ContextTreeBuilder
+getPassName	CAMP/CAMP.h	/^			const char *getPassName() const { return "CAMP"; }$/;"	f	class:corelab::CAMPInstaller
+getPassName	CAMP/CampCache.h	/^			const char *getPassName() const { return "CAMP"; }$/;"	f	class:corelab::CAMPCache
+getPassName	CAMP/CampExectime.h	/^			const char *getPassName() const { return "CAMP"; }$/;"	f	class:corelab::CAMPExectime
+getPassName	CAMP/CampPlain.h	/^			const char *getPassName() const { return "CAMP_Plain"; }$/;"	f	class:corelab::CAMPPlain
+getPassName	CAMP/ContextTreeBuilder.h	/^			const char *getPassName() const { return "CAMP-context-tree-builder"; }$/;"	f	class:corelab::ContextTreeBuilder
+getPassName	CAMP/RegiInterIterDepFinder.h	/^			const char *getPassName() const { return "regi-inter-iter-dep-finder"; }$/;"	f	class:corelab::RegiInterIterDepFinder
+getPassName	ObjTrace/CtxObjtrace.h	/^			const char *getPassName() const { return "Cxt-Objtrace"; }$/;"	f	class:corelab::CtxObjtrace
+getPassName	ObjTrace/ObjTrace.h	/^      const char *getPassName() const { return "ObjTrace"; }$/;"	f	class:corelab::ObjTrace
+getPlatform	Metadata/EsperantoNamer.cpp	/^	EsperantoNamer::EsperantoPlatform EsperantoNamer::getPlatform(const char* compType) {$/;"	f	class:corelab::EsperantoNamer
+getPlatformAsString	Metadata/EsperantoNamer.cpp	/^	const char* EsperantoNamer::getPlatformAsString(EsperantoNamer::EsperantoPlatform E) {$/;"	f	class:corelab::EsperantoNamer
+getProloguePosition	CAMP/CAMP.cpp	/^Instruction *getProloguePosition(Instruction *inst){$/;"	f
+getRecursiveFuncList	AliasAnalysis/RecursiveFuncAnal.hpp	/^      RecursiveFuncList &getRecursiveFuncList()       { return recFuncList; }$/;"	f	class:corelab::RecursiveFuncAnal
+getRecursiveFuncList	AliasAnalysis/RecursiveFuncAnal.hpp	/^      const RecursiveFuncList &getRecursiveFuncList() const { return recFuncList; }$/;"	f	class:corelab::RecursiveFuncAnal
+getTrueRecursiveCallList	AliasAnalysis/RecursiveFuncAnal.hpp	/^      RecursiveCallList &getTrueRecursiveCallList()       { return recursiveCalls; }$/;"	f	class:corelab::RecursiveFuncAnal
+getTrueRecursiveCallList	AliasAnalysis/RecursiveFuncAnal.hpp	/^      const RecursiveCallList &getTrueRecursiveCallList() const { return recursiveCalls; }$/;"	f	class:corelab::RecursiveFuncAnal
+getTypeBasedMatching	AliasAnalysis/IndirectCallAnal.hpp	/^			void getTypeBasedMatching(Matching& matching){matching = typeBasedMatching;}$/;"	f	class:corelab::IndirectCallAnal
+getUCID	CAMP/ContextTreeBuilder.h	/^			inline UniqueContextID getUCID(){return ucID;}$/;"	f	class:corelab::ContextTree
+getValue	Metadata/Namer.cpp	/^	Value* Namer::getValue(const Instruction *I) {$/;"	f	class:corelab::Namer
+hookMallocFree	CAMP/CAMP.cpp	/^void CAMPInstaller::hookMallocFree(){$/;"	f	class:CAMPInstaller
+hookMallocFree	ObjTrace/CtxObjtrace.cpp	/^void CtxObjtrace::hookMallocFree(){$/;"	f	class:CtxObjtrace
+hookMallocFree	ObjTrace/ObjTrace.cpp	/^void ObjTrace::hookMallocFree(){$/;"	f	class:ObjTrace
+indirectCalls	AliasAnalysis/IndirectCallAnal.hpp	/^			IndirectCallList indirectCalls;$/;"	m	class:corelab::IndirectCallAnal
+indirectCalls	CAMP/CAMP.h	/^			IndirectCallList indirectCalls;$/;"	m	class:corelab::CAMPInstaller
+indirectCalls	CAMP/CampExectime.h	/^			IndirectCallList indirectCalls;$/;"	m	class:corelab::CAMPExectime
+indirectCalls	ObjTrace/CtxObjtrace.h	/^			IndirectCallList indirectCalls;$/;"	m	class:corelab::CtxObjtrace
+indirectCallsWithNoTarget	AliasAnalysis/LoopTraverse.hpp	/^      IndirectCallList indirectCallsWithNoTarget;$/;"	m	class:corelab::LoopTraverse
+initUseDefChains	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::initUseDefChains() {$/;"	f	class:corelab::EsperantoNamer
+initialize	Metadata/Namer.cpp	/^	void Namer::initialize() {$/;"	f	class:corelab::Namer
+insert	Utilities/InstInsertPt.cpp	/^  void InstInsertPt::insert(Instruction *i) {$/;"	f	class:corelab::InstInsertPt
+invokeOrCallInst	CAMP/ContextTreeBuilder.h	/^			const Instruction *invokeOrCallInst;$/;"	m	class:corelab::ContextTree
+isCallSite	CAMP/ContextTreeBuilder.h	/^			bool isCallSite;$/;"	m	class:corelab::ContextTree
+isCallSiteNode	CAMP/ContextTreeBuilder.h	/^			inline bool isCallSiteNode(){return isCallSite;}$/;"	f	class:corelab::ContextTree
+isCheckedOrEnroll	Metadata/EsperantoNamer.cpp	/^	bool EsperantoNamer::isCheckedOrEnroll(Instruction* target) {$/;"	f	class:corelab::EsperantoNamer
+isCheckedOrEnroll	Metadata/EsperantoNamer.cpp	/^	bool EsperantoNamer::isCheckedOrEnroll(Value* v) {$/;"	f	class:corelab::EsperantoNamer
+isEqual	AliasAnalysis/IndirectCallAnal.cpp	/^bool IndirectCallAnal::isEqual(FunctionType *lhs, FunctionType *rhs){$/;"	f	class:IndirectCallAnal
+isExistOrInsert	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::isExistOrInsert(std::string cName){$/;"	f	class:corelab::EsperantoNamer
+isIndVar	CAMP/RegiInterIterDepFinder.cpp	/^bool RegiInterIterDepFinder::isIndVar(Value *inVal, std::vector<Value *> orginalVal, const Loop *loop){$/;"	f	class:RegiInterIterDepFinder
+isRecursiveCallSite	CAMP/ContextTreeBuilder.h	/^			bool isRecursiveCallSite;$/;"	m	class:corelab::ContextTree
+isRecursiveCallSiteNode	CAMP/ContextTreeBuilder.h	/^			inline bool isRecursiveCallSiteNode(){return isRecursiveCallSite;}$/;"	f	class:corelab::ContextTree
+isRetInst	Utilities/FindFunctionExitBB.cpp	/^static inline bool isRetInst(const Instruction *I) {$/;"	f	file:
+isUseOfGetElementPtrInst	CAMP/CAMP.cpp	/^bool CAMPInstaller::isUseOfGetElementPtrInst(LoadInst *ld){$/;"	f	class:CAMPInstaller
+isUseOfGetElementPtrInst	ObjTrace/CtxObjtrace.cpp	/^bool CtxObjtrace::isUseOfGetElementPtrInst(LoadInst *ld){$/;"	f	class:CtxObjtrace
+isUseOfGetElementPtrInst	ObjTrace/ObjTrace.cpp	/^bool ObjTrace::isUseOfGetElementPtrInst(LoadInst *ld){$/;"	f	class:ObjTrace
+iterator	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef RecursiveFuncList::iterator iterator;$/;"	t	class:corelab::RecursiveFuncAnal
+loadMetadata	Metadata/LoadNamer.cpp	/^	bool LoadNamer::loadMetadata() {$/;"	f	class:corelab::LoadNamer
+locID	CAMP/ContextTreeBuilder.h	/^			LocalContextID locID;$/;"	m	class:corelab::ContextTree
+locIdOf_callSite	CAMP/CAMP.h	/^			LocIDMapForCallSite *locIdOf_callSite;  \/\/ if key is instrID of indirect call, then value is -1$/;"	m	class:corelab::CAMPInstaller
+locIdOf_callSite	CAMP/CampCache.h	/^			LocIDMapForCallSite *locIdOf_callSite;$/;"	m	class:corelab::CAMPCache
+locIdOf_callSite	CAMP/CampExectime.h	/^			LocIDMapForCallSite *locIdOf_callSite;  \/\/ if key is instrID of indirect call, then value is -1$/;"	m	class:corelab::CAMPExectime
+locIdOf_callSite	CAMP/ContextTreeBuilder.h	/^			LocIDMapForCallSite locIdOf_callSite;  \/\/ if key is instrID of indirect call, then value is -1$/;"	m	class:corelab::ContextTreeBuilder
+locIdOf_callSite	ObjTrace/CtxObjtrace.h	/^			LocIDMapForCallSite *locIdOf_callSite;  \/\/ if key is instrID of indirect call, then value is -1$/;"	m	class:corelab::CtxObjtrace
+locIdOf_indCall	CAMP/CAMP.h	/^			LocIDMapForIndirectCalls *locIdOf_indCall;$/;"	m	class:corelab::CAMPInstaller
+locIdOf_indCall	CAMP/CampCache.h	/^			LocIDMapForIndirectCalls *locIdOf_indCall;$/;"	m	class:corelab::CAMPCache
+locIdOf_indCall	CAMP/CampExectime.h	/^			LocIDMapForIndirectCalls *locIdOf_indCall;$/;"	m	class:corelab::CAMPExectime
+locIdOf_indCall	CAMP/ContextTreeBuilder.h	/^			LocIDMapForIndirectCalls locIdOf_indCall;$/;"	m	class:corelab::ContextTreeBuilder
+locIdOf_indCall	ObjTrace/CtxObjtrace.h	/^			LocIDMapForIndirectCalls *locIdOf_indCall;$/;"	m	class:corelab::CtxObjtrace
+locIdOf_loop	CAMP/CAMP.h	/^			LocIDMapForLoop *locIdOf_loop;$/;"	m	class:corelab::CAMPInstaller
+locIdOf_loop	CAMP/CampExectime.h	/^			LocIDMapForLoop *locIdOf_loop;$/;"	m	class:corelab::CAMPExectime
+locIdOf_loop	CAMP/ContextTreeBuilder.h	/^			LocIDMapForLoop locIdOf_loop;$/;"	m	class:corelab::ContextTreeBuilder
+locIdOf_loop	ObjTrace/CtxObjtrace.h	/^			LocIDMapForLoop *locIdOf_loop;$/;"	m	class:corelab::CtxObjtrace
+loop	CAMP/ContextTreeBuilder.h	/^			Loop *loop;$/;"	m	class:corelab::ContextTree
+loopDep	CAMP/campCommon.h	/^			uint32_t 	loopDep;						\/\/ Accumulative Loop Dependence Bit Vector$/;"	m	struct:corelab::CAMP::__anon1
+loopIdOf	CAMP/ContextTreeBuilder.h	/^			LoopIdOf loopIdOf;$/;"	m	class:corelab::ContextTreeBuilder
+loopIdOf	CAMP/RegiInterIterDepFinder.h	/^			ContextTreeBuilder::LoopIdOf *loopIdOf;$/;"	m	class:corelab::RegiInterIterDepFinder
+loopInfoOf	AliasAnalysis/LoopTraverse.hpp	/^      LoopInfoOfFunc loopInfoOf;$/;"	m	class:corelab::LoopTraverse
+loopInfoOf	CAMP/ContextTreeBuilder.h	/^			LoopInfoOfFunc loopInfoOf;$/;"	m	class:corelab::ContextTreeBuilder
+loopOfCntxID	CAMP/ContextTreeBuilder.h	/^			LoopOfCntxID loopOfCntxID;$/;"	m	class:corelab::ContextTreeBuilder
+loopOfLoopID	CAMP/RegiInterIterDepFinder.h	/^			ContextTreeBuilder::LoopOfCntxID *loopOfLoopID;$/;"	m	class:corelab::RegiInterIterDepFinder
+makeFunctionTable	Metadata/Namer.cpp	/^	bool Namer::makeFunctionTable(Function &F)$/;"	f	class:corelab::Namer
+makeMetadata	Metadata/Namer.cpp	/^	void Namer::makeMetadata(Instruction* instruction, uint64_t Id) {$/;"	f	class:corelab::Namer
+makeMetadata	ObjTrace/CtxObjtrace.cpp	/^void CtxObjtrace::makeMetadata(Instruction* instruction, uint64_t Id) {$/;"	f	class:CtxObjtrace
+makeMetadata	ObjTrace/ObjTrace.cpp	/^void ObjTrace::makeMetadata(Instruction* instruction, uint64_t Id) {$/;"	f	class:ObjTrace
+makeNodeOfCallSite	CAMP/ContextTreeBuilder.cpp	/^void ContextTreeBuilder::makeNodeOfCallSite(Instruction *invokeOrCallinst, ContextTreeNode *parent){$/;"	f	class:ContextTreeBuilder
+makeNodeOfCallSite_aux	CAMP/ContextTreeBuilder.cpp	/^ContextTreeNode * ContextTreeBuilder::makeNodeOfCallSite_aux(Function *callee, Instruction *invokeOrCallinst, ContextTreeNode *parent){$/;"	f	class:ContextTreeBuilder
+makeNodeOfLoop	CAMP/ContextTreeBuilder.cpp	/^void ContextTreeBuilder::makeNodeOfLoop(Loop *loop, ContextTreeNode *parent){$/;"	f	class:ContextTreeBuilder
+markRecursive	CAMP/ContextTreeBuilder.h	/^			void markRecursive(){$/;"	f	class:corelab::ContextTree
+maxDepth	CAMP/ContextTreeBuilder.h	/^			unsigned maxDepth;$/;"	m	class:corelab::ContextTreeBuilder
+maxDepthOf	AliasAnalysis/LoopTraverse.hpp	/^      FunToMaxDepth maxDepthOf;$/;"	m	class:corelab::LoopTraverse
+mergeID	Metadata/Namer.cpp	28;"	d	file:
+module	AliasAnalysis/IndirectCallAnal.hpp	/^			Module *module;$/;"	m	class:corelab::IndirectCallAnal
+module	AliasAnalysis/LoopTraverse.hpp	/^      Module *module;$/;"	m	class:corelab::LoopTraverse
+module	AliasAnalysis/RecursiveFuncAnal.hpp	/^      Module *module;$/;"	m	class:corelab::RecursiveFuncAnal
+module	CAMP/CAMP.h	/^			Module *module;$/;"	m	class:corelab::CAMPInstaller
+module	CAMP/CampCache.h	/^			Module *module;$/;"	m	class:corelab::CAMPCache
+module	CAMP/CampExectime.h	/^			Module *module;$/;"	m	class:corelab::CAMPExectime
+module	CAMP/ContextTreeBuilder.h	/^			Module *module;$/;"	m	class:corelab::ContextTreeBuilder
+module	CAMP/RegiInterIterDepFinder.h	/^			Module *module;$/;"	m	class:corelab::RegiInterIterDepFinder
+module	ObjTrace/CtxObjtrace.h	/^			Module *module;$/;"	m	class:corelab::CtxObjtrace
+module	ObjTrace/ObjTrace.h	/^      Module *module;$/;"	m	class:corelab::ObjTrace
+nCallSiteNode	CAMP/ContextTreeBuilder.h	/^			unsigned nCallSiteNode;$/;"	m	class:corelab::ContextTreeBuilder
+nLoopCarriedDepMap	CAMP/RegiInterIterDepFinder.h	/^			NumLoopCarriedDepMap nLoopCarriedDepMap;$/;"	m	class:corelab::RegiInterIterDepFinder
+nLoopNode	CAMP/ContextTreeBuilder.h	/^			unsigned nLoopNode;$/;"	m	class:corelab::ContextTreeBuilder
+nonRecFuncList	AliasAnalysis/RecursiveFuncAnal.hpp	/^      NonRecursiveFuncList nonRecFuncList;$/;"	m	class:corelab::RecursiveFuncAnal
+numDuplicationOnPathToRoot	CAMP/ContextTreeBuilder.cpp	/^unsigned ContextTree::numDuplicationOnPathToRoot(bool isCallSiteCmp, const Instruction *instCmp, CntxID cntxIDCmp){$/;"	f	class:ContextTree
+objTraceCalloc	ObjTrace/ObjTrace.h	/^      Constant *objTraceCalloc;$/;"	m	class:corelab::ObjTrace
+objTraceFinalize	ObjTrace/ObjTrace.h	/^      Constant *objTraceFinalize;$/;"	m	class:corelab::ObjTrace
+objTraceFree	ObjTrace/ObjTrace.h	/^      Constant *objTraceFree;$/;"	m	class:corelab::ObjTrace
+objTraceInitialize	ObjTrace/ObjTrace.h	/^      Constant *objTraceInitialize;$/;"	m	class:corelab::ObjTrace
+objTraceLoadInstr	ObjTrace/ObjTrace.h	/^      Constant *objTraceLoadInstr;$/;"	m	class:corelab::ObjTrace
+objTraceMalloc	ObjTrace/ObjTrace.h	/^      Constant *objTraceMalloc;$/;"	m	class:corelab::ObjTrace
+objTraceRealloc	ObjTrace/ObjTrace.h	/^      Constant *objTraceRealloc;$/;"	m	class:corelab::ObjTrace
+objTraceStoreInstr	ObjTrace/ObjTrace.h	/^      Constant *objTraceStoreInstr;$/;"	m	class:corelab::ObjTrace
+override	AliasAnalysis/IndirectCallAnal.hpp	/^			bool runOnModule(Module &M)  override;$/;"	m	class:corelab::IndirectCallAnal
+override	AliasAnalysis/LoopTraverse.hpp	/^      bool runOnModule(Module &M)  override;$/;"	m	class:corelab::LoopTraverse
+override	AliasAnalysis/RecursiveFuncAnal.hpp	/^      bool runOnModule(Module &M)  override;$/;"	m	class:corelab::RecursiveFuncAnal
+pCxtTree	CAMP/CAMP.h	/^			std::vector<ContextTreeNode *> *pCxtTree;$/;"	m	class:corelab::CAMPInstaller
+pCxtTree	CAMP/CampCache.h	/^			std::vector<ContextTreeNode*> *pCxtTree;$/;"	m	class:corelab::CAMPCache
+pCxtTree	CAMP/CampExectime.h	/^			std::vector<ContextTreeNode *> *pCxtTree;$/;"	m	class:corelab::CAMPExectime
+pCxtTree	ObjTrace/CtxObjtrace.h	/^			std::vector<ContextTreeNode *> *pCxtTree;$/;"	m	class:corelab::CtxObjtrace
+pLoadNamer	CAMP/CAMP.h	/^			LoadNamer *pLoadNamer;$/;"	m	class:corelab::CAMPInstaller
+pLoadNamer	CAMP/CampExectime.h	/^			LoadNamer *pLoadNamer;$/;"	m	class:corelab::CAMPExectime
+pLoadNamer	CAMP/ContextTreeBuilder.h	/^			LoadNamer *pLoadNamer;$/;"	m	class:corelab::ContextTreeBuilder
+pLoadNamer	ObjTrace/CtxObjtrace.h	/^			LoadNamer *pLoadNamer;$/;"	m	class:corelab::CtxObjtrace
+parent	CAMP/ContextTreeBuilder.h	/^			ContextTree *parent;$/;"	m	class:corelab::ContextTree
+possibleTargetOf	AliasAnalysis/LoopTraverse.hpp	/^      IndirectCallMap possibleTargetOf;$/;"	m	class:corelab::LoopTraverse
+possibleTargetOf	AliasAnalysis/RecursiveFuncAnal.hpp	/^      IndirectCallMap possibleTargetOf;$/;"	m	class:corelab::RecursiveFuncAnal
+possibleTargetOf	CAMP/ContextTreeBuilder.h	/^			IndirectCallMap possibleTargetOf;$/;"	m	class:corelab::ContextTreeBuilder
+print	Utilities/InstInsertPt.cpp	/^  void InstInsertPt::print(llvm::raw_ostream &out) const{$/;"	f	class:corelab::InstInsertPt
+printAllIndirectCalls	AliasAnalysis/IndirectCallAnal.cpp	/^void IndirectCallAnal::printAllIndirectCalls(){$/;"	f	class:IndirectCallAnal
+printAllRecursiveFunction	AliasAnalysis/RecursiveFuncAnal.cpp	/^void RecursiveFuncAnal::printAllRecursiveFunction(){$/;"	f	class:RecursiveFuncAnal
+printAllTargetCandidate	AliasAnalysis/IndirectCallAnal.cpp	/^void IndirectCallAnal::printAllTargetCandidate(){$/;"	f	class:IndirectCallAnal
+printAllTrueRecursiveCall	AliasAnalysis/RecursiveFuncAnal.cpp	/^void RecursiveFuncAnal::printAllTrueRecursiveCall(){$/;"	f	class:RecursiveFuncAnal
+printCallHistory	AliasAnalysis/RecursiveFuncAnal.cpp	/^void RecursiveFuncAnal::printCallHistory(){$/;"	f	class:RecursiveFuncAnal
+printCallsWithNoTarget	CAMP/ContextTreeBuilder.cpp	/^void ContextTreeBuilder::printCallsWithNoTarget(){$/;"	f	class:ContextTreeBuilder
+printContextTree	CAMP/ContextTreeBuilder.cpp	/^void ContextTreeBuilder::printContextTree(){$/;"	f	class:ContextTreeBuilder
+printMatching	AliasAnalysis/IndirectCallAnal.cpp	/^void IndirectCallAnal::printMatching(Matching &matching){$/;"	f	class:IndirectCallAnal
+printMaxLoopDepthOfFunctions	AliasAnalysis/LoopTraverse.cpp	/^void LoopTraverse::printMaxLoopDepthOfFunctions()$/;"	f	class:LoopTraverse
+printPathToRoot	CAMP/ContextTreeBuilder.cpp	/^void ContextTree::printPathToRoot(){$/;"	f	class:ContextTree
+printResult	CAMP/RegiInterIterDepFinder.cpp	/^void RegiInterIterDepFinder::printResult(std::string path){$/;"	f	class:RegiInterIterDepFinder
+printSpecs	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::printSpecs() {$/;"	f	class:corelab::EsperantoNamer
+queryTreeNodeForCallSite	CAMP/ContextTreeBuilder.h	/^			ContextTreeNode *queryTreeNodeForCallSite(const Instruction *inst){$/;"	f	class:corelab::ContextTreeBuilder
+recFuncList	AliasAnalysis/LoopTraverse.hpp	/^      std::unordered_set<const Function *> recFuncList;$/;"	m	class:corelab::LoopTraverse
+recFuncList	AliasAnalysis/RecursiveFuncAnal.hpp	/^      RecursiveFuncList recFuncList;$/;"	m	class:corelab::RecursiveFuncAnal
+recFuncList	CAMP/ContextTreeBuilder.h	/^			std::unordered_set<const Function *> recFuncList;$/;"	m	class:corelab::ContextTreeBuilder
+reccall_iterator	AliasAnalysis/RecursiveFuncAnal.hpp	/^      typedef RecursiveCallList::iterator reccall_iterator;$/;"	t	class:corelab::RecursiveFuncAnal
+recordLoopIDforEachLoop	CAMP/ContextTreeBuilder.cpp	/^void ContextTreeBuilder::recordLoopIDforEachLoop(){$/;"	f	class:ContextTreeBuilder
+recurDuplicateFunction	CAMP/CampCache.cpp	/^bool CAMPCache::recurDuplicateFunction (ContextTreeNode *node, int oldIterator, Instruction* targetInst)$/;"	f	class:CAMPCache
+recursiveCalls	AliasAnalysis/RecursiveFuncAnal.hpp	/^      RecursiveCallList recursiveCalls;$/;"	m	class:corelab::RecursiveFuncAnal
+recursiveFunCalls	AliasAnalysis/LoopTraverse.hpp	/^      RecursiveFunCallList recursiveFunCalls; \/\/ call to recursive function$/;"	m	class:corelab::LoopTraverse
+recursiveFunCalls	CAMP/ContextTreeBuilder.h	/^			RecursiveFunCallList recursiveFunCalls; \/\/ call to recursive function$/;"	m	class:corelab::ContextTreeBuilder
+reload	Metadata/LoadNamer.cpp	/^	void LoadNamer::reload() {$/;"	f	class:corelab::LoadNamer
+reset	Metadata/Namer.cpp	/^	void Namer::reset(Module& M) {$/;"	f	class:corelab::Namer
+runOnCall	Metadata/Namer.cpp	/^	bool Namer::runOnCall(uint16_t bbid, uint16_t includedFunctionId, uint16_t callingFunctionId) {$/;"	f	class:corelab::Namer
+runOnFunction	CAMP/CAMP.cpp	/^bool CAMPInstaller::runOnFunction(Function *F)$/;"	f	class:CAMPInstaller
+runOnFunction	Metadata/Namer.cpp	/^	bool Namer::runOnFunction(Function &F) {$/;"	f	class:corelab::Namer
+runOnLoop	CAMP/CAMP.cpp	/^bool CAMPInstaller::runOnLoop(Loop *L, FuncID functionId)$/;"	f	class:CAMPInstaller
+runOnLoop	Metadata/Namer.cpp	/^	bool Namer::runOnLoop(Loop *L, uint16_t functionId) {$/;"	f	class:corelab::Namer
+runOnModule	AliasAnalysis/IndirectCallAnal.cpp	/^bool IndirectCallAnal::runOnModule(Module &M) {$/;"	f	class:IndirectCallAnal
+runOnModule	AliasAnalysis/LoopTraverse.cpp	/^bool LoopTraverse::runOnModule(Module &M) {$/;"	f	class:LoopTraverse
+runOnModule	AliasAnalysis/RecursiveFuncAnal.cpp	/^bool RecursiveFuncAnal::runOnModule(Module &M) {$/;"	f	class:RecursiveFuncAnal
+runOnModule	CAMP/CAMP.cpp	/^bool CAMPInstaller::runOnModule(Module& M) {$/;"	f	class:CAMPInstaller
+runOnModule	CAMP/CampCache.cpp	/^bool CAMPCache::runOnModule(Module& M) {$/;"	f	class:CAMPCache
+runOnModule	CAMP/CampExectime.cpp	/^bool CAMPExectime::runOnModule(Module& M) {$/;"	f	class:CAMPExectime
+runOnModule	CAMP/CampPlain.cpp	/^bool CAMPPlain::runOnModule(Module& M) {$/;"	f	class:CAMPPlain
+runOnModule	CAMP/ContextTreeBuilder.cpp	/^bool ContextTreeBuilder::runOnModule(Module& M) {$/;"	f	class:ContextTreeBuilder
+runOnModule	CAMP/RegiInterIterDepFinder.cpp	/^bool RegiInterIterDepFinder::runOnModule(Module& M) {$/;"	f	class:RegiInterIterDepFinder
+runOnModule	Metadata/EsperantoNamer.cpp	/^	bool EsperantoNamer::runOnModule(Module &M) {$/;"	f	class:corelab::EsperantoNamer
+runOnModule	Metadata/LoadNamer.cpp	/^	bool LoadNamer::runOnModule(Module& M)$/;"	f	class:corelab::LoadNamer
+runOnModule	Metadata/Namer.cpp	/^	bool Namer::runOnModule(Module &M) {$/;"	f	class:corelab::Namer
+runOnModule	ObjTrace/CtxObjtrace.cpp	/^bool CtxObjtrace::runOnModule(Module& M) {$/;"	f	class:CtxObjtrace
+runOnModule	ObjTrace/ObjTrace.cpp	/^bool ObjTrace::runOnModule(Module& M) {$/;"	f	class:ObjTrace
+runOnModule	Utilities/FindFunctionExitBB.cpp	/^bool FindFunctionExitBB::runOnModule(Module &M) {$/;"	f	class:FindFunctionExitBB
+runOnModuleImpl	Metadata/Namer.cpp	/^	void Namer::runOnModuleImpl(Module &M)$/;"	f	class:corelab::Namer
+searchMaxLoopDepth	AliasAnalysis/LoopTraverse.cpp	/^void LoopTraverse::searchMaxLoopDepth(){$/;"	f	class:LoopTraverse
+setFunctions	CAMP/CAMP.cpp	/^void CAMPInstaller::setFunctions(Module &M)$/;"	f	class:CAMPInstaller
+setFunctions	CAMP/CampExectime.cpp	/^void CAMPExectime::setFunctions(Module &M)$/;"	f	class:CAMPExectime
+setFunctions	CAMP/CampPlain.cpp	/^void CAMPPlain::setFunctions(Module &M)$/;"	f	class:CAMPPlain
+setFunctions	ObjTrace/CtxObjtrace.cpp	/^void CtxObjtrace::setFunctions(Module &M)$/;"	f	class:CtxObjtrace
+setFunctions	ObjTrace/ObjTrace.cpp	/^void ObjTrace::setFunctions(Module &M) {$/;"	f	class:ObjTrace
+setIniFini	CAMP/CAMP.cpp	/^void CAMPInstaller::setIniFini(Module& M)$/;"	f	class:CAMPInstaller
+setIniFini	CAMP/CampExectime.cpp	/^void CAMPExectime::setIniFini(Module& M)$/;"	f	class:CAMPExectime
+setIniFini	CAMP/CampPlain.cpp	/^void CAMPPlain::setIniFini(Module& M)$/;"	f	class:CAMPPlain
+setIniFini	ObjTrace/CtxObjtrace.cpp	/^void CtxObjtrace::setIniFini(Module& M)$/;"	f	class:CtxObjtrace
+setIniFini	ObjTrace/ObjTrace.cpp	/^void ObjTrace::setIniFini(Module& M) {$/;"	f	class:ObjTrace
+setMaps	Metadata/EsperantoNamer.cpp	/^	void EsperantoNamer::setMaps() {$/;"	f	class:corelab::EsperantoNamer
+size	AliasAnalysis/RecursiveFuncAnal.hpp	/^      size_t                  size () const { return recFuncList.size();  }$/;"	f	class:corelab::RecursiveFuncAnal
+srcInstrID	CAMP/campCommon.h	/^			InstrID 	srcInstrID;												\/\/ Source Instruction ID$/;"	m	struct:corelab::CAMP::__anon1
+srcStkCntxID	CAMP/campCommon.h	/^			CntxID 		srcStkCntxID[MAX_CNTX_LV + 1];		\/\/ Source Context ID Stack$/;"	m	struct:corelab::CAMP::__anon1
+stdLibFunCalls	AliasAnalysis/IndirectCallAnal.hpp	/^			IndirectCallList stdLibFunCalls;$/;"	m	class:corelab::IndirectCallAnal
+stdLibFunList	AliasAnalysis/IndirectCallAnal.hpp	/^			std::unordered_set<std::string> stdLibFunList;$/;"	m	class:corelab::IndirectCallAnal
+testAndTraverse	AliasAnalysis/LoopTraverse.cpp	/^unsigned LoopTraverse::testAndTraverse(Instruction *inst){$/;"	f	class:LoopTraverse
+transform	Utilities/FindFunctionExitBB.cpp	/^void FindFunctionExitBB::transform(Function *fun){$/;"	f	class:FindFunctionExitBB
+traverseAndMarkRecCalls	AliasAnalysis/RecursiveFuncAnal.cpp	/^void RecursiveFuncAnal::traverseAndMarkRecCalls(Function *curFun){$/;"	f	class:RecursiveFuncAnal
+typeBasedMatching	AliasAnalysis/IndirectCallAnal.hpp	/^			Matching typeBasedMatching; \/\/matched by Function prototype (Function return type, and formal argument types)$/;"	m	class:corelab::IndirectCallAnal
+ucID	CAMP/ContextTreeBuilder.h	/^			UniqueContextID ucID;$/;"	m	class:corelab::ContextTree
+verifyUCID	CAMP/ContextTreeBuilder.cpp	/^bool ContextTreeBuilder::verifyUCID(){$/;"	f	class:ContextTreeBuilder

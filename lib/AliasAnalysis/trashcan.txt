@@ -1,0 +1,38 @@
+if(loop->getSubLoops().size()> 1000){
+		errs()<<"###CC SIZE OF subLoops :"<<loop->getSubLoops().size()<<",,,"<<"\n";
+		loop->dump();
+		assert(0);
+	}
+
+{
+	errs()<<"### SIZE OF subLoops :"<< subLoops.size()<<"..."<<loop->getSubLoops().size()<<",,,"<<size_debug<<"\n";
+	errs()<<"###"<<loop<<"=="<<loop_debug<<", isStack?:"<<is_stack((void *)loop)<<"\n";
+	loop->dump();
+	errs()<<"###"<<loopRef_debug<<"==";
+	errs()<<*loop_debug<<"\n";
+
+
+	assert(bbPtr && "ERROR: bbPtr NULL");
+
+	if(instPtr == NULL){
+		errs()<<"[ ## size of bbPtr:"<< bbPtr->size() << "] \n";
+		assert(instPtr && "ERROR:: inst is Null pointer!!..1");
+	}	
+
+	if(1){
+		errs()<<"sb### SIZE OF subLoops :"<< subLoops.size()<<"..."<<loop->getSubLoops().size()<<",,,"<<size_debug<<"\n";
+		errs()<<"sb###"<<loop<<"=="<<loop_debug<<", isStack?:"<<is_stack((void *)loop)<<"\n";
+		loop->dump();
+		errs()<<"sb###"<<loopRef_debug<<"==";
+		errs()<<*loop_debug<<"\n";
+	}
+	
+	errs()<<"sb###"<<subloop<<", isStack?:"<<is_stack((void *)subloop)<<"\n";
+	errs()<<"!!! subloop:"<< *subloop <<" !!! \n";
+
+	if(subloop->getSubLoops().size()> 1000){
+		errs()<<"###AA SIZE OF subLoops :"<< subloop->getSubLoops().size()<<"\n";
+		subloop->dump();
+		assert(0);
+	}
+}
